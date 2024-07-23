@@ -1,0 +1,20 @@
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+public class New{
+    static void shorthandif(){
+        
+        Scanner x = new Scanner(System.in);
+        System.out.print("Enter your age to check elgibility : ");
+        int a = x.nextInt();
+        String b = (a>=18) ? "Your are eligible for Vote" : "Your are not eligible for Vote";
+        
+        System.out.println(b);
+        
+    }
+    public static void main(String args[]){
+        shorthandif();
+        
+    }
+}
